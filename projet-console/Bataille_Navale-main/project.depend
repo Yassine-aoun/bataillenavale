@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1621478751 source:c:\users\asus\desktop\c programming\project\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	<unistd.h>
+	<windows.h>
+	<fstream>
+	"project.h"
+
+1621485297 c:\users\asus\desktop\c programming\project\project.h
+	<iostream>
+	<cstring>
+	<cstdlib>
+
+1621467129 source:c:\users\asus\desktop\c programming\project\project.cpp
+	"project.h"
+	<iostream>
+	<cstring>
+	<windows.h>
+	<unistd.h>
+	<cstdlib>
+	<ctime>
+
