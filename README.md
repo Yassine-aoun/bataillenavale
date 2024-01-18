@@ -24,6 +24,8 @@ For the shooting phase, each player must, one after the other, choose coordinate
 Upon launching the game, the program will present you with a list of choices:
 
 If you want to play with another human player, type 1. If you type 2, you will play against the computer.
+![Game Mechanism](https://img.genial.ly/603573c0d5d0c10a0b2726e2/162e7f0e-8a92-47fd-8f80-44cb5abd34cf.png)
+
 
 ### Mechanism of the 1 vs. 1 Game:
 
