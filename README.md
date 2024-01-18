@@ -1,5 +1,4 @@
-# bataillenavale
-<img src="https://www.logicieleducatif.fr/vignette/bataille-navale/815624-vignette_600.jpg" alt="Bataille Navale" width="300"/>
+# Battleship
 ##  Overview of the "Battleship" Game
 ### General Rules of the Game
 The game of "Battleship" is a two-player board game in which players must place their ships on a "secret" grid. They then aim to sink all opponent ships by hitting all ship squares in turn. The winner is the one who manages to sink all the opponent's ships before their own ships are all sunk. A ship is considered sunk if each of its squares has been hit by the opponent's shots. Each player has a 10x10 grid where their ships are placed without overlapping or touching. There are two possible ship arrangements:
@@ -41,8 +40,7 @@ After choosing the arrangement, the game will prompt the first player to start f
 
 Each time, the game will specify which ship to place and how many squares the ship will occupy.
 The player is supposed to specify the first row of the square (between 0 and 9) and the column of the square (letter between A and J) during placement and the direction of the ship: horizontal or vertical.
-![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/416659535_1540818896694988_8304059225903432454_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=5Z_PocAioHEAX9_hRJg&_nc_ht=scontent.ftun1-2.fna&oh=03_AdTeZuGLe1QZyOcyY6AHwNveD2an9Zq7Th3H2jgO-PYMtw&oe=65D0C8B0 | width=300)
-
+![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/417491661_6768354376627290_3853253372494968258_n.png?_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=qnKo1aKko8AAX91GNQ0&_nc_ht=scontent.ftun1-2.fna&oh=03_AdQxhwf6s5gX8KBvsRUSaAJ_NAzKmrE_YR-Un7ftmNhmXg&oe=65D0C8F1)
 
 
 ## Graphical User Interface Version
@@ -66,15 +64,14 @@ wxWidgets (formerly wxWindows) is a widget toolkit and tool library for creating
 - Wx/event.h: Trigger actions, for example, to switch from one window to another.
 
 ### Home Screen:
-![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/417330664_394692739733357_3211872291128444284_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=JfKC7M9S4kkAX90LGp5&_nc_ht=scontent.ftun1-2.fna&oh=03_AdTAcTV-9wrB7P83kBCijX_0f0zE9wKbKjshb4WKx5eEGA&oe=65D09D08 | width=300)
+![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/417330664_394692739733357_3211872291128444284_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=JfKC7M9S4kkAX90LGp5&_nc_ht=scontent.ftun1-2.fna&oh=03_AdTAcTV-9wrB7P83kBCijX_0f0zE9wKbKjshb4WKx5eEGA&oe=65D09D08)
+
 
 
 ### Filling Screen:
 
-![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/417732775_397136352888291_233989163788955952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=qPfV9Sl9ZeoAX8gqVNV&_nc_ht=scontent.ftun1-2.fna&oh=03_AdS2XLspThMihH5YR0iH7nOF62WbxrEhwvr01h3yg2kV3g&oe=65D0AC9E | width=300)
-
+![Game Mechanism](https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/417732775_397136352888291_233989163788955952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=qPfV9Sl9ZeoAX8gqVNV&_nc_ht=scontent.ftun1-2.fna&oh=03_AdS2XLspThMihH5YR0iH7nOF62WbxrEhwvr01h3yg2kV3g&oe=65D0AC9E)
 
 ### Battle Screen After Attack:
 
-![Game Mechanism](https://scontent.xx.fbcdn.net/v/t1.15752-9/417379294_279264838186135_2575092385583889252_n.png?stp=dst-png_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=GllbVYOA0AQAX8vQ_iQ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQCI0DXFCdyjuiv7DeKUuSHN_c6zK69BgodYgJCX0n0gw&oe=65D09CDD | width=300)
-
+![Game Mechanism](https://scontent.xx.fbcdn.net/v/t1.15752-9/417379294_279264838186135_2575092385583889252_n.png?stp=dst-png_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=GllbVYOA0AQAX8vQ_iQ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQCI0DXFCdyjuiv7DeKUuSHN_c6zK69BgodYgJCX0n0gw&oe=65D09CDD)
